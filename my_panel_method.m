@@ -1,4 +1,4 @@
-function [cl,cp,X,N]=my_panel_method(NACA,c,AOA,V_inf)
+function [cl,cp,X,N]=my_panel_method(NACA,c,AOA,V_inf,N)
 %2D Hess & Smith method to study NACA four-digit airfoils.
 
 %/!\ the AOA has to be given in radians /!\
